@@ -28,8 +28,9 @@ class Contaminacion {
 
     @Override
     public String toString() {
-        String txt="fecha: "+dia+"/"+mes+"/"+ano+", estacion:"+estacion+", ElementoMedido: "+magnitud+
-                ", datos/h: "+EntradaSalida.imprimirValores(datos)+"\n";
+        
+        String txt= " \t"+estacion+"| \t  "+magnitud+"| "+dia+"/"+mes+"/"+ano+
+                "| "+EntradaSalida.imprimirValores(datos)+"\n";
         return txt; //To change body of generated methods, choose Tools | Templates.
     }
     
